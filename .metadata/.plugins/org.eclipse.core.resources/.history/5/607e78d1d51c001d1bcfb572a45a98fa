@@ -1,0 +1,14 @@
+
+public class StaticDemo {
+
+	
+	static {
+		System.out.println("Im from Static Block");
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		System.out.println("I m from Main Block");
+	}
+
+}

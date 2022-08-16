@@ -1,0 +1,17 @@
+
+public class StaticDemo {
+ /*Static Block is executed before Main method
+	This is due to the fact that the class has to be loaded 
+	into the main memory before its usage, 
+	and static block is executed 
+	during the loading of the class.
+	*/
+	static {
+		//System.out.println("Im from Static Block");
+	}
+	public static void main(String[] args) {
+		
+		System.out.println("I m from Main Block");
+	}
+
+}
